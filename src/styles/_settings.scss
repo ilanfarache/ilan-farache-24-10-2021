@@ -1,0 +1,24 @@
+
+$color-main :#aeccad ;
+$color-second :#d3e8df ;
+
+// $color-main :#d3e8df ;
+// $color-second :#aeccad ;
+
+
+*{
+
+    box-sizing: border-box;
+     margin: 0 ;
+     padding: 0;
+     // background-color: green;
+ }
+ 
+ body{
+     margin: 0.4rem auto;
+     max-width: 1296px;
+ //    background-color: yellow;
+    width: 100%;
+
+    font-family:'Times New Roman', Times, serif;
+ }

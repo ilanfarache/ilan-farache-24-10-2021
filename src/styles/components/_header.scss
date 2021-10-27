@@ -1,0 +1,47 @@
+
+
+.navContainer{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+   padding: 10px 10px;
+   
+}
+
+.leftNav{
+
+   display: flex;
+
+}
+.rightNav{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 50px;
+   width: 15%;
+   text-decoration: "none";
+}
+
+a:link{
+
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+   .navContainer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      
+   }
+   .rightNav{
+     
+      width: 100%;
+      
+   }
+}
+

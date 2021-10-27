@@ -1,0 +1,80 @@
+.dayContainer{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 15%;
+    padding: 30px 20px;
+    background-color: $color-main;
+    -webkit-box-shadow: 3px 6px 16px -4px rgba(97,93,97,1);
+    -moz-box-shadow: 3px 6px 16px -4px rgba(97,93,97,1);
+     box-shadow: 3px 6px 16px -4px rgba(97,93,97,1);
+     opacity: 0.8;
+     border-radius: 4px;  
+     position: relative;
+}
+
+
+.dayContainer:hover{
+
+    animation-name: click ;
+    animation-duration: 4s ;
+    animation-timing-function:ease-out;
+   
+}
+
+@keyframes click {
+    0%   {  top:0px;}
+    50%  { top:-50px;}
+    100% {top:0px;}
+  }
+
+.icon{
+    width: 30%;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .dayContainer {
+        
+        width: 100%;
+        margin-bottom: 10px;
+    
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    .dayContainer {
+        
+        width: 100%;
+        margin-bottom: 10px;
+    
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .dayContainer {
+        width: 18%;
+        
+
+}}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .dayContainer {
+  
+        width: 80%;
+}}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .dayContainer {
+        width: 15%;
+
+}}
