@@ -5,7 +5,7 @@ export const GET_WEATHER = "GET_WEATHER";
 
 
 export const getWeather = (cityKey = 215793) => {
-    const url = 'http://dataservice.accuweather.com/currentconditions/v1/';
+    const url = 'https://dataservice.accuweather.com/currentconditions/v1/';
     const KEY_API = 'FmzjHpulkPjKbavR6SW07Dw0DFDKHLmd';
     const query = `${cityKey}?apikey=${KEY_API}`
 
